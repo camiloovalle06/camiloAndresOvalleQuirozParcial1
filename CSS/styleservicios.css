@@ -1,0 +1,79 @@
+/* Estilos básicos para la página de servicios */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f6d503;
+    color: #333;
+}
+
+/* Enlace de inicio */
+a img {
+    margin: 10px 0;
+}
+
+/* Título principal */
+h1 {
+    color: #f5a623; /* Color amarillo de Tostao */
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Contenedor de imágenes de servicios */
+.imgServicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.imgServicios img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 45%;
+}
+
+/* Párrafos de texto */
+p {
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Pie de página */
+.piePagina {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.piePagina p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* Redes sociales - soporta ambas versiones de la clase */
+.redes-sociales, .redes.sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 600px) {
+    .imgServicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imgServicios img {
+        max-width: 90%;
+    }
+}

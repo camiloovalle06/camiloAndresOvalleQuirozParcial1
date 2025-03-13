@@ -1,0 +1,93 @@
+/* Estilos básicos para la página de contacto */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f6d503;
+}
+
+/* Enlace de inicio */
+a img {
+    margin: 10px 0;
+}
+
+/* Título de bienvenida */
+p:first-of-type {
+    font-size: 24px;
+    color: #f5a623;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Contenedor del formulario */
+.contenedorFormulario {
+    margin: 20px 0;
+}
+
+/* Estilos del formulario */
+.formularioContacto {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Grupos de campos del formulario */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Etiquetas de los campos */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Botón de enviar */
+.submit-btn {
+    background-color: #f5a623;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Pie de página */
+.piePagina {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+.piePagina p {
+    margin-bottom: 10px;
+}
+
+/* Redes sociales */
+.redes-sociales, .redes.sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .formularioContacto {
+        padding: 15px;
+    }
+}

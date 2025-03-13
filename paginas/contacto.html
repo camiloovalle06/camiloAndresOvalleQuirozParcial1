@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/stylecontacto.css">
+    <title>Pagina de contacto</title>
+</head>
+<body>
+    
+    <a href="../index.html">
+        <img src="../img/btn-inicio.png" alt="no_carga_mensaje" title="Ir al index" width="40px">
+    </a>
+
+    <p>Bienvenid@s a la página de contacto...</p>
+
+    <div class="contenedorFormulario">
+        <form class="formularioContacto" action="#" method="post">
+            <div class="form-group">
+                <label for="cc">Cédula de Ciudadanía:</label>
+                <input type="number" id="cc" name="cc" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="nombres">Nombres:</label>
+                <input type="text" id="nombres" name="nombres" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Enviar</button>
+            </div>
+        </form>
+    </div> <!-- Cierre correcto del contenedorFormulario -->
+
+    <div class="piePagina">
+        <p>Página web realizada por Estudiante © 2025</p>
+        <div class="redes-sociales"> <!-- Corregido el nombre de la clase -->
+            <a href="https://www.facebook.com/tostaocafeypan/" target="_blank">
+                <img src="../img/btn-facebook.png" alt="Facebook" width="30px">
+            </a>
+            <a href="https://www.instagram.com/tostaocafeypan/" target="_blank">
+                <img src="../img/btn-instagram .png" alt="Instagram" width="30px">
+            </a> <!-- Agregado el cierre de la etiqueta a -->
+        </div>
+    </div>
+</body>
+</html>
